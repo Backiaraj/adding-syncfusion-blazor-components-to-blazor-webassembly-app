@@ -1,4 +1,4 @@
-# How to create a Blazor WebAssembly App and Add Syncfusion Blazor Components
+# How to create a Blazor WebAssembly App and Add Syncfusion Blazor Components?
 
 This example explains about how to create a Blazor WebAssembly App project that is pre-configured to use the [Blazor Components](https://www.syncfusion.com/blazor-components/) of Syncfusion.
 
