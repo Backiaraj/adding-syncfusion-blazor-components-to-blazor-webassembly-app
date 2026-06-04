@@ -1,30 +1,59 @@
-# How to create a Blazor WebAssembly App and Add Syncfusion Blazor Components to it?
+# Blazor WebAssembly with Blazor Components
 
-This example explains about how to create a Blazor WebAssembly App project that is pre-configured to use the [Blazor Components](https://www.syncfusion.com/blazor-components/) of Syncfusion.
+A pre-configured Blazor WebAssembly application demonstrating how to integrate and use Blazor components. This sample includes a [Blazor Calendar](https://www.syncfusion.com/blazor-components/blazor-calendar) component for date selection and a [Blazor DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid) component for displaying tabular data with built-in features.
+
+## Overview
+
+This project provides a modern, interactive web application built with Blazor WebAssembly. The application demonstrates how to configure and use Blazor components in a production-ready setup with proper theming and component integration.
+
+The sample includes:
+- A fully configured Blazor WebAssembly project (.NET 10.0)
+- Blazor Calendar component for date selection
+- Blazor DataGrid component with employee data
+- Proper service registration and component imports
+- Professional layout with navigation
+
+## Features
+
+- **Blazor Calendar** - Interactive date picker
+- **Blazor DataGrid** - Professional data table with columns
+- **Layout integration** - Responsive layout with Bootstrap integration
 
 ## Prerequisites
 
+* [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later
 * [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
 * [Visual Studio Code](https://code.visualstudio.com/)
-* .NET SDK 8.0 or later
 
-## How to run the project
+## Getting Started
 
-1. Clone or download this repository to a location in your system.
-2. Open the solution file using the Visual Studio or Visual Studio code.
-3. Restore the NuGet packages by rebuilding the solution or run `dotnet restore`.
-4. Build the project to ensure there are no compilation errors.
-5. Run the project.
+### Clone the Repository
 
-Optional CLI Commands:
+```bash
+git clone https://github.com/SyncfusionExamples/adding-syncfusion-blazor-components-to-blazor-webassembly-app.git
+cd adding-syncfusion-blazor-components-to-blazor-webassembly-app
+cd CreateBlazorApplication
+```
 
-```powershell
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
 dotnet restore
-dotnet build
+
+# Run the project
+dotnet run
 ```
 
 ## References
 
-**Documentation**: https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-visual-studio
+**Documentation**: https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-app
 
 **Online examples**: https://blazor.syncfusion.com/demos/
